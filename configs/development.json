@@ -1,0 +1,29 @@
+{
+  "app": {
+    "port": 8080,
+    "ip": "127.0.0.1"
+  },
+
+  "db": {
+    "name": "name",
+    "uri": "mongodb://mongodb:27017",
+    "options": {
+      "user": "",
+      "password": ""
+    }
+  },
+
+  "services": {
+    "email": {
+      "SMTP_HOST": "smtp.gmail.com",
+      "SMTP_PORT": "587",
+      "SMTP_FROM": "",
+      "SMTP_PASSWORD": ""
+    }
+  },
+
+  "auth": {
+    "signing_key": "signing_key",
+    "token_ttl": 720
+  }
+}
